@@ -45,8 +45,8 @@ public class MainApp {
 		corte = (int) (numero / hilos);
 
 		for (int i = 0; i < numero; i++) {
-			numeroGenerado = (int) (Math.random() * 1000);
-			listaPrincipal.add(numeroGenerado);
+			
+			listaPrincipal.add(i);
 
 		}
 
